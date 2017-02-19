@@ -1,6 +1,6 @@
 const reports = [
     {
-      id: 'foo',
+      id: 0,
       title: 'Four Winds Eclectic',
       created_at: Date.now(),
       updated_at: Date.now(),
@@ -8,7 +8,7 @@ const reports = [
       comment: 'A report is a beautiful thing',
     },
     {
-      id: 'bar',
+      id: 1,
       title: 'Wonderful putty --try it!',
       created_at: Date.now(),
       updated_at: Date.now(),

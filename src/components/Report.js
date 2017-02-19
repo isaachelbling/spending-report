@@ -33,8 +33,10 @@ class Report extends React.Component {
   }
 
   render() {
+
     const { reports, lineItems, params } = this.props
-    const reportId = params.reportId
+    // had to add parseInt to get the to match the id
+    const reportId = parseInt(params.reportId, 10)
     const report = reports.filter((report) => report.id === reportId)[0]
 
     return (

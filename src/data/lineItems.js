@@ -1,11 +1,11 @@
 const lineItems = {
-  'foo': [
+  0: [
     {
       description: 'A flanged thinger',
       unitCost: 100000,
       quantity: 4,
     },
-    {
+  1:  {
       description: 'Knarled kinks',
       unitCost: 50000,
       quantity: 1,
